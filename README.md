@@ -50,5 +50,3 @@ Guide users through a simple qualification flow before presenting a credit card 
 - Responsive Design (Flexbox / Grid)
 
 ---
-
-## Project Structure
