@@ -1,3 +1,9 @@
+## Live Demo
+
+Landing Page 1: https://landingpg-01.netlify.app/
+Landing Page 2: https://landingpg-02.netlify.app/
+
+
 # Credit Card Landing Pages
 
 This project contains two responsive landing pages designed for credit card offers.  
