@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for PremierCard - Top Credit Card Offer</title>
+    <meta name="description" content="Apply for the PremierCard to enjoy exclusive benefits, low interest rates, and premium rewards.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="PremierCard Logo" height="40">
+            </a>
+            <div class="secure-badge">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span>Secure Application</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-header">
+                    <h1 class="headline">Unlock Premium Rewards with PremierCard</h1>
+                    <p class="description">Experience unparalleled financial freedom, exclusive travel benefits, and cash back on your everyday purchases. Apply today and get an instant decision.</p>
+                </div>
+                
+                <div class="hero-grid">
+                    <div class="left-content">
+                        <div class="image-wrapper">
+                            <img src="images/hero-image.png" alt="Person using credit card online" class="hero-image">
+                        </div>
+                        <div class="benefits-list">
+                            <div class="benefit-item">
+                                <div class="icon">✓</div>
+                                <div>
+                                    <h3>0% Intro APR for 15 Months</h3>
+                                    <p>On purchases and balance transfers.</p>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="icon">✓</div>
+                                <div>
+                                    <h3>$200 Welcome Bonus</h3>
+                                    <p>After you spend $1,000 in your first 3 months.</p>
+                                </div>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="icon">✓</div>
+                                <div>
+                                    <h3>No Annual Fee</h3>
+                                    <p>Enjoy all the benefits without the extra cost.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-form">
+                        <div class="form-card">
+                            <h2>See If You're Approved</h2>
+                            <p>It only takes a minute and won't impact your credit score.</p>
+                            
+                            <form id="applyForm" class="apply-form" novalidate>
+                                <div class="form-group">
+                                    <label for="gender">Gender</label>
+                                    <select id="gender" name="gender" required>
+                                        <option value="" disabled selected>Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                    <div class="error-message" id="gender-error">Please select your gender.</div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" id="firstName" name="firstName" placeholder="e.g. Jane" required>
+                                        <div class="error-message" id="firstName-error">First name is required.</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" id="lastName" name="lastName" placeholder="e.g. Doe" required>
+                                        <div class="error-message" id="lastName-error">Last name is required.</div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="jane.doe@example.com" required>
+                                    <div class="error-message" id="email-error">Please enter a valid email address.</div>
+                                </div>
+
+                                <button type="submit" class="submit-btn" id="submitBtn">
+                                    <span>Apply Now</span>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                </button>
+                                
+                                <p class="terms">By clicking "Apply Now", you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+                            </form>
+                        </div>
+
+                        <div class="trust-signals">
+                            <div class="trust-item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                <span>256-bit Encryption</span>
+                            </div>
+                            <div class="trust-item">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                <span>Instant Decision</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="images/logo.svg" alt="PremierCard Logo" height="30" class="footer-logo">
+                <p class="copyright">&copy; 2026 PremierCard Financial Services. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Contact Support</a>
+                </div>
+            </div>
+            <p class="disclaimer">
+                The PremierCard is issued by PremierBank NA pursuant to a license from Visa U.S.A. Inc. Cards can be used everywhere Visa credit cards are accepted. APRs vary depending on your creditworthiness. This offer is available to individuals who are 18 years of age or older and reside in the United States.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
